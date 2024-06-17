@@ -1,3 +1,3 @@
-![alt text](https://imgur.com/a/cVjG7JV)
+![alt text](https://i.imgur.com/aG2n5uP.png)
 # OptiSync
 Display &amp; Performance Optimization for NVIDIA Graphics
