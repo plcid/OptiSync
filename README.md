@@ -4,7 +4,7 @@
 
 # Preview
 
-![alt text](https://i.imgur.com/0VDWf2m.gif)
+![alt text](https://github.com/plcid/OptiSync/blob/main/preview.gif)
 
 # Disclaimer
 OptiSync is an independent optimization tool and is not affiliated with, endorsed by, or in any way officially connected to the NVIDIA Corporation. All product names, logos, and brands are the property of their respective owners. References to any & all NVIDIA products or technologies are for informational purposes only and do not imply a partnership or endorsement.
