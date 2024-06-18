@@ -26,7 +26,7 @@ namespace nvw {
 	NvAPI_Status exit();
 	NvAPI_Status getSetting(NvU32 id, NVDRS_SETTING* outSetting);
 	NvAPI_Status setSetting(NvAPI_SettingRequest nvsrq);
-	const char*	 getStatusMessage(NvAPI_Status status);
+	const char*  getStatusMessage(NvAPI_Status status);
 	const char*  NvUnicodeStrToCStr(NvAPI_UnicodeString& unistr);
 }
 
