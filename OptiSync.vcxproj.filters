@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="OptiSync.cc" />
+    <ClCompile Include="nvapi\NvApiDriverSettings.c">
+      <Filter>nvapi</Filter>
+    </ClCompile>
+    <ClCompile Include="nvapi\NvWrapper.cc">
+      <Filter>nvapi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="nvapi">
+      <UniqueIdentifier>{da64bc80-99ff-44c7-b495-727180e6af68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nvapi\nvapi.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_common.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_d3dext.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_salend.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_salstart.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_sli.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_stereo.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvapi_lite_surround.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\NvApiDriverSettings.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvHLSLExtns.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvHLSLExtnsInternal.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\nvShaderExtnEnums.h">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+    <ClInclude Include="nvapi\NvWrapper.hh">
+      <Filter>nvapi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="nvapi\nvapi64.lib">
+      <Filter>nvapi</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
