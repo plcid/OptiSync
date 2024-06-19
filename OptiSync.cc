@@ -17,7 +17,7 @@ std::vector<NvAPI_SettingRequest> settings = {
     // skipped CUDA, DSR, Low Latency <<<
     {FRL_FPS_ID, 0},
     // skipped monitor techonology
-    {MAXWELL_B_SAMPLE_INTERLEAVE_ID, 1},
+    // {MAXWELL_B_SAMPLE_INTERLEAVE_ID, 1}, <<<< THIS SETTING IS PROBLEMATIC FOR WEBAPPS
     // skipped OGL GDI compat & affinity gpu
     {PREFERRED_PSTATE_ID, 1},
     //
