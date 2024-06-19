@@ -55,7 +55,7 @@ int main()
 
     int status = NVAPI_OK;
 
-    status = nvw::init();
+    status ^= (int)nvw::init();
 
     checkSafe(status);
 
@@ -120,7 +120,7 @@ int main()
 
     checkSafe(status);
 
-    status = nvw::exit();
+    status ^= (int)nvw::exit();
 
     checkSafe(status);
 
